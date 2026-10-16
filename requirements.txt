@@ -1,0 +1,3 @@
+# No runtime dependencies — stdlib only
+# Dev dependencies:
+#   pip install pytest pytest-cov ruff
