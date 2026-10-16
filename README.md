@@ -1,17 +1,19 @@
-Python CLI Calculator
+# CLI Calculator
 
-A simple command-line calculator built using Python.
+A small interactive calculator written in Python. It supports addition, subtraction, multiplication, and division, and accepts both whole numbers and decimals.
 
-Features
-- Addition
-- Subtraction
-- Multiplication
-- Division
-- Input validation
-- Error handling
+## Run
 
-Concepts Used
-- Functions
-- Loops
-- Conditionals
-- Exception handling
+```bash
+python3 calc.py
+```
+
+Choose an operation, then enter the two numbers when prompted. Type `q`, `quit`, `exit`, or `ex` at the operation prompt to finish. Invalid numbers and division by zero are reported without stopping the calculator.
+
+## Test
+
+Run the standard-library test suite with:
+
+```bash
+python3 -m unittest -v
+```
